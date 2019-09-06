@@ -9,4 +9,5 @@ install (
    USE_SOURCE_PERMISSIONS
    MESSAGE_NEVER
    PATTERN "CMakeLists.txt" EXCLUDE
+   PATTERN ".git" EXCLUDE
    )
